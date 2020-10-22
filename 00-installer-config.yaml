@@ -1,0 +1,10 @@
+network:
+ version: 2
+ ethernets:
+ enp3s0:
+ addresses:
+ - 192.168.73.10/24
+ gateway4: 192.168.73.2
+ nameservers:
+ search: [unige.it]
+ addresses: [8.8.8.8, 8.8.4.4]
